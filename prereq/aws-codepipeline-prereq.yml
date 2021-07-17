@@ -165,6 +165,7 @@ Resources:
                   - s3:*
                   - iam:PassRole
                   - cloudformation:DescribeStacks
+                  - cloudformation:*
                 Resource: "*"
               - Effect: Allow
                 Action:
